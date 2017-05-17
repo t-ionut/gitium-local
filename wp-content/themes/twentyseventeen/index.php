@@ -15,6 +15,14 @@
  * @version 1.0
  */
 
+# ini_set( 'log_errors', true );
+
+?$a = [1,2,3];
+
+echo $a[1];
+echo $a[3];
+
+die();
 get_header(); ?>
 
 <div class="wrap">
